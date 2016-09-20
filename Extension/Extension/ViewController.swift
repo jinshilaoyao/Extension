@@ -22,6 +22,11 @@ class ViewController: UIViewController {
         print(str.href()?.link)
         print(str.href()?.text)
         
+        print(Date.sinaDate("Sat Oct 31 03:32:05 +0800 2015")?.dateDescription)
+        print(Date.sinaDate("Sat Oct 30 03:32:05 +0800 2015")?.dateDescription)
+        print(Date.sinaDate("Sat May 31 03:32:05 +0800 2015")?.dateDescription)
+        print(Date.sinaDate("Sat Oct 31 03:32:05 +0800 2014")?.dateDescription)
+        
     }
 
     override func didReceiveMemoryWarning() {
